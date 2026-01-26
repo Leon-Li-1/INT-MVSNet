@@ -1,12 +1,13 @@
-# CL-MVSNet+
-CL-MVSNet+ is an improvement of CL-MVSNet with two plug-and-play modules, InceptionMamba and InceptionConv3D
+InceptionMamba-MVS: Plug-and-Play Modules for Unsupervised Multi-View Stereo
 
 Details are described in our paper:
 > Improving Unsupervised Multi-View Stereo via Distinctive Feature Matching and Multi-Granular Cost Aggregation
 >
 > Liangliang Li, Guihua Liu, Feng Xu, Wenjin Liao
 
-CL-MVSNet+ is more robust on the indistinguishable regions and view-dependent effects. The point cloud is more complete and accurate than previous methods.
+This repository implements two novel plug-and-play modules that significantly boost unsupervised multi-view stereo (MVS) performance without requiring ground-truth depth supervision:
+✅ InceptionMamba - Robust multi-granular feature matching via state-space modeling
+✅ InceptionConv3D - Hierarchical cost aggregation across depth planes
 
 *If there are any errors in our code, please feel free to ask your questions.*
 
