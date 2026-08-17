@@ -3,7 +3,7 @@ InceptionMamba-MVS: Plug-and-Play Modules for Unsupervised Multi-View Stereo
 Details are described in our paper:
 > Improving Unsupervised Multi-View Stereo via Distinctive Feature Matching and Multi-Granular Cost Aggregation
 >
-> Liangliang Li, Guihua Liu, Feng Xu, Wenjin Liao
+> Liangliang Li, Guihua Liu, Hongwei Quan, Xiaoying Hong
 
 This repository implements two novel plug-and-play modules that significantly boost unsupervised multi-view stereo (MVS) performance without requiring ground-truth depth supervision:
  
@@ -46,38 +46,6 @@ origin
 			├── ...
 		└── pair.txt
 	├── ...
-```
-
-
-## 📊 Testing
-
-#### DTU testing
-
-**Note:** `pretrained_model/model.ckpt` is the model trained on DTU without any finetuning.
-
-```
-bash ./scripts/dtu_test.sh
-```
-
-## ⏳ Training
-
-#### DTU training
-
-```
-bash ./scripts/dtu_train.sh
-```
-
-
-## ⚖ Citation
-If you find our work useful in your research please consider citing our paper:
-```
-@inproceedings{xiong2023cl,
-  title={Improving Unsupervised Multi-View Stereo via Distinctive Feature Matching and Multi-Granular Cost Aggregation},
-  author={Liangliang Li, Guihua Liu, Feng Xu, Wenjin Liao},
-  booktitle={  },
-  pages={  },
-  year={2026}
-}
 ```
 
 ## 👩‍ Acknowledgements
