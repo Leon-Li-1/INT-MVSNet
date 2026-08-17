@@ -1,8 +1,9 @@
-InceptionMamba-MVS: Plug-and-Play Modules for Unsupervised Multi-View Stereo
+Enhancing Matching Energy Distinctiveness and Multi-Granular Cost Aggregation for Unsupervised Multi-View Stereo
 
 Details are described in our paper:
-> Enhancing Matching Energy Distinctiveness and Multi-Granular Cost Aggregation for Unsupervised Multi-View Stereo
->
+> From the perspective of multi-view feature matching, we propose two Inception-style plug-and-play modules. Our approach comprehensively examines features at different granularities to enhance the discriminability of the cost volume across various depth hypothesis planes, thereby improving model performance. By integrating these two modules into CL-MVSNet, we propose INT-MVSNet.
+>We greatly appreciate the foundational work of CL-MVSNet, upon which we have made only minor improvements.
+> 
 > Liangliang Li, Guihua Liu, Hongwei Quan, Xiaoying Hong
 
 This repository implements two novel plug-and-play modules that significantly boost unsupervised multi-view stereo (MVS) performance without requiring ground-truth depth supervision:
